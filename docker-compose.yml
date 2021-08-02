@@ -1,0 +1,13 @@
+version: "2.2"
+services:
+  api:
+    image: dami7/url_maestro:0.2
+    ports:
+      - "5001:5001"
+  
+  front:
+    image: dami7/url_maestro_front:0.1
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"

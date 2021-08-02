@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from transformers import AutoTokenizer
 import torch
 from tools import *
+from fastapi.middleware.cors import CORSMiddleware
 
 # Initialisation
 app = FastAPI()
@@ -22,6 +23,16 @@ threshold = 0.50
 # requets
 class Item(BaseModel):
     data: list
+
+
+# Cors
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['http://localhost:3000','*'],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 @app.get('/')

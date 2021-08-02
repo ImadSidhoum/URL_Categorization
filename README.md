@@ -18,7 +18,7 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 *   If you want to use my complete solution (my pre-trained model with the interface), you can use docker-compose which retrieves all my images (already uploaded on docker hub) with the following command:
 
-        pika@pika:~$ docker-compose ....
+        docker-compose ....
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
@@ -27,7 +27,8 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 *  If you want to use the pre-trained model only (as API), you can download the image from docker hub with the following command:
 
-        pika@pika:~$ docker run -p 5001:5001 dami7/url_maestro:0.2
+        docker run -p 5001:5001 dami7/url_maestro:0.2
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That will launch an API that runs in port 5001. 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To make predictions you have to pass a list of strings (URLs) in POST to port 5001 and you receive a list of categories (for each passed URL you receive a list of categories), a simple example is given in the example folder to guide you.
@@ -41,11 +42,11 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the model is ready, it's time to build the docker image with the following command: 
 
-        pika@pika:~$ docker build -t url_maestro .
+        docker build -t url_maestro .
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Then run the API with the following command:
 
-        pika@pika:~$ docker run -p 5001:5001 url_maestro
+        docker run -p 5001:5001 url_maestro
 
 
 

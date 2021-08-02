@@ -17,22 +17,19 @@ Multi-label classification is not an easy task especially with a dataset that re
 ## Usage
 
 *   If you want to use my complete solution (my pre-trained model with the interface), you can use docker-compose which retrieves all my images (already uploaded on docker hub) with the following command:
-```console
-pika@pika:~$ docker-compose ....
-```
-After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
-```
-image
 
-```
-You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
+        pika@pika:~$ docker-compose ....
 
-*   If you want to use the pre-trained model only (as API), you can download the image from docker hub with the following command:
 
-```console
-pika@pika:~$ docker run -p 5001:5001 dami7/url_maestro:0.2
-```
-That will launch an API that runs in port 5001. 
-To make predictions you have to pass a list of strings (URLs) in POST to port 5001 and you receive a list of categories (for each passed URL you receive a list of categories), a simple example is given in the example file to guide you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
+
+*  If you want to use the pre-trained model only (as API), you can download the image from docker hub with the following command:
+
+        pika@pika:~$ docker run -p 5001:5001 dami7/url_maestro:0.2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That will launch an API that runs in port 5001. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To make predictions you have to pass a list of strings (URLs) in POST to port 5001 and you receive a list of categories (for each passed URL you receive a list of categories), a simple example is given in the example file to guide you.
 
 

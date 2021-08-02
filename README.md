@@ -20,12 +20,12 @@ Multi-label classification is not an easy task especially with a dataset that re
 ```console
 pika@pika:~$ docker-compose ....
 ```
-    After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
-    ```
-    image
+After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
+```
+image
 
-    ```
-    You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
+```
+You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
 
 *   If you want to use the pre-trained model only (as API), you can download the image from docker hub with the following command:
 

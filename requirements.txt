@@ -1,0 +1,9 @@
+numpy
+uvicorn
+fastapi
+pydantic
+transformers
+torch
+tldextract
+nltk
+spacy

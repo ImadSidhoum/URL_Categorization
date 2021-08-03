@@ -49,7 +49,7 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The folder 'artifatcs' must contain the model and the json file (of label encoder).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the model is ready, it's time to build the docker image with the following command: 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Once the model is ready, you can test your model with the folowing colab [Prediction Test](https://colab.research.google.com/drive/1SpscvmVEbCVQ0pyLcHoeq-THn7RORof5?usp=sharing) it's time to build the docker image with the following command: 
 
         docker build -t url_maestro .
 

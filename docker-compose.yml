@@ -1,7 +1,7 @@
 version: "2.2"
 services:
   api:
-    image: dami7/url_maestro:0.2
+    image: dami7/url_maestro:0.3
     ports:
       - "5001:5001"
   

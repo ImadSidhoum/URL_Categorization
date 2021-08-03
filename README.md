@@ -18,10 +18,12 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 *   If you want to use my complete solution (my pre-trained model with the interface), you can use docker-compose which retrieves all my images (already uploaded on docker hub) with the following command:
 
-        docker-compose ....
+        docker-compose up
 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the docker-compose finishes downloading the images and running them, you can find the interface in port 5002 [Interface](http://localhost:5002/).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the docker-compose finishes downloading the images and running them, you can find the interface in port 3000 [Interface](http://localhost:3000/).
+
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
 

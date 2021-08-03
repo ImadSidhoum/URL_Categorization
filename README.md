@@ -44,6 +44,8 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need to open an account at [Wandb](https://wandb.ai/), if you want to keep track of your experiments (all the metrics you want: loss, accuracies, hyperparameters, models, system information like the name of GPU used, execution time, memory used, energy consumption .....  ) and even to compare between experiments.
 
+![metrics](https://user-images.githubusercontent.com/47036939/127977367-213ae8c1-1968-4a7f-ae72-0c039d1c49ff.PNG)
+
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The folder 'artifatcs' must contain the model and the json file (of label encoder).
 

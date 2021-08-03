@@ -6,7 +6,7 @@ services:
       - "5001:5001"
   
   front:
-    image: dami7/url_maestro_front:0.1
+    image: dami7/url_maestro_front:0.2
     depends_on:
       - api
     ports:

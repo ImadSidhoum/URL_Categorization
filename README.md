@@ -23,9 +23,14 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;After the docker-compose finishes downloading the images and running them, you can find the interface in port 3000 [Interface](http://localhost:3000/).
 
+![Capture d’écran du 2021-08-03 02-27-50](https://user-images.githubusercontent.com/47036939/127940629-36d8664c-d263-4a6f-af32-cd3ab36e7827.png)
+
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You should give the URL in the corresponding box and press the send button, the content of the page will be displayed and the categories of the page will appear at the bottom.
+
+![Capture d’écran du 2021-08-03 02-45-40](https://user-images.githubusercontent.com/47036939/127940839-24982d43-1ef0-49ca-873a-23b684f74175.png)
+
 
 *  If you want to use the pre-trained model only (as API), you can download the image from docker hub with the following command:
 

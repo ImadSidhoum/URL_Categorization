@@ -12,7 +12,7 @@ The Dataset is given by the company in the format of several parquet files and i
 *   Day: day of the month
 
 ## Follow-up process
-Multi-label classification is not an easy task especially with a dataset that requires a lot of manipulation before being ready for training, the following notebook shows the approach followed and the choices taken for training the model.  [URL categorization Colab](https://colab.research.google.com/drive/1w4GOV9h2pPI9P-E8Z-Z2qzsrQVduVzFS?usp=sharing) .
+Multi-label classification is not an easy task especially with a dataset that requires a lot of manipulation before being ready for training, the following notebook shows the approach followed and the choices taken for training the model [URL categorization Colab](https://colab.research.google.com/drive/1w4GOV9h2pPI9P-E8Z-Z2qzsrQVduVzFS?usp=sharing) .
 
 ## Usage
 

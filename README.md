@@ -1,9 +1,9 @@
 # URLs Categorization
-Internet can be used as one important source of information for machine learning algorithms. Web pages store diverse information about multiple domains. One critical problem is how to categorize this information.
+The internet can be used as one important source of information for machine learning algorithms. Web pages store diverse information about multiple domains. One critical problem is how to categorize this information.
 
-Websites classification is performed by using NLP techniques that helps to generate words frequencies for each category and by calculating categories weights it is possible to predict categories for Websites.
+Websites classification is performed by using NLP techniques that help to generate word frequencies for each category and by calculating  weights for each category it is possible to predict categories for Websites.
 
-This repository is made for a challenge that Adot proposes, we are going to train a neural network to predict the categories of each given URL (even if this URL does not exist in reality, so we are not going to scrape the content of the pages which could give very good results) but we are going to use the URLs only.
+This repository is made for a challenge that Adot proposes, we are going to train a neural network to predict the categories of each given URL (even if this URL does not exist in reality, so we are not going to scrape the content of the pages which could give very good results) but instead we are going to use the URLs only.
 
 The Dataset is given by the company in the format of several parquet files and it contains 3 columns:
 
@@ -38,11 +38,11 @@ Multi-label classification is not an easy task especially with a dataset that re
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;That will launch an API that runs in port 5001. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To make predictions you have to pass a list of strings (URLs) in POST to port 5001 and you receive a list of categories (for each passed URL you receive a list of categories), a simple example is given in the example folder to guide you.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To make predictions you have to pass a list of strings (URLs) in POST to port 5001 and you will receive a list of categories (for each passed URL you receive a list of categories), a simple example is given in the example folder to guide you.
 
 *    If you want to re-train the model, you can use the notebook where you can change the dataset, the hyperparameters .... the code is made in a generic way so that it works if you just change the inputs. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need to open an account at [Wandb](https://wandb.ai/), if you want to keep track of your experiments (all the metrics you want: loss, accuracies, hyperparameters, models, system information like the name of GPU used, execution time, memory used, energy consumption .....  ) and even to compare between experiments.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You will need to open an account at [Wandb](https://wandb.ai/), if you want to keep track of your experiments (all the metrics you want: loss, accuracies, hyperparameters, models, system information like the name of GPU used, execution time, memory used, energy consumption .....  ) and even to compare experiments.
 
 ![metrics](https://user-images.githubusercontent.com/47036939/127977367-213ae8c1-1968-4a7f-ae72-0c039d1c49ff.PNG)
 
